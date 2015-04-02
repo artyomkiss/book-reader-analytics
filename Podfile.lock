@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.2):
+    - FMDB/standard (= 2.2)
+  - FMDB/common (2.2)
+  - FMDB/standard (2.2):
+    - FMDB/common
+  - KSCrash/Recording (0.0.3)
+  - KSCrash/Reporting/Filters/AppleFmt (0.0.3):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (0.0.3):
+    - KSCrash/Recording
+  - OpenUDID (1.0.0)
+  - protobuf-c (0.15)
+  - YandexMobileMetrica (1.6.2):
+    - FMDB (= 2.2.0)
+    - KSCrash/Recording (~> 0.0.3)
+    - KSCrash/Reporting/Filters/AppleFmt (~> 0.0.3)
+    - protobuf-c (= 0.15)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - OpenUDID (~> 1.0.0)
+  - YandexMobileMetrica (~> 1.6.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  FMDB: f6f4511ad1e9ace38e9b6f4d83c2cddaabf98ea6
+  KSCrash: c0a693b2d83ced5c15a40d4e916833c655475e6a
+  OpenUDID: 5a23b7477755efc2d7871b57aa79ba3089c40b74
+  protobuf-c: 0177b8dbc4afc4ec5d01e868b3e25a7400b98ca0
+  YandexMobileMetrica: 54642fd869c15fbdecc4c81131ed08fe98c1fddb
+
+COCOAPODS: 0.36.0

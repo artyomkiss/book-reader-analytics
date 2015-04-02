@@ -1,0 +1,1453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0831A5681AC7718100637777 /* TCSNetworkObjectsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07541AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m */; };
+		0831A5691AC7718100637777 /* TCSBooksListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806EE1AB0DA4B007FE2CA /* TCSBooksListItem.m */; };
+		0831A56A1AC7718100637777 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0859463D1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m */; };
+		0831A56B1AC7718100637777 /* TCSBookAccessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C005201AB5D7D10062E01D /* TCSBookAccessInfo.m */; };
+		0831A56C1AC7718100637777 /* TCSRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B2521AAF8C5100C8A21C /* TCSRequestViewController.m */; };
+		0831A56D1AC7718100637777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24F1AAF8C5100C8A21C /* AppDelegate.m */; };
+		0831A56E1AC7718100637777 /* TCSHTTPRequestOperationManager+Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07491AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m */; };
+		0831A56F1AC7718100637777 /* TCSEventConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8981AC3714F007187C3 /* TCSEventConstants.m */; };
+		0831A5701AC7718100637777 /* TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F21AB0DEF9007FE2CA /* TCSBooksListCell.m */; };
+		0831A5711AC7718100637777 /* NSString+SizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946441AB5B4DE0033A367 /* NSString+SizeWithFont.m */; };
+		0831A5721AC7718100637777 /* TCSBooksList.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07571AB0C92200CAE22D /* TCSBooksList.m */; };
+		0831A5731AC7718100637777 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946471AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m */; };
+		0831A5741AC7718100637777 /* TCSBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D95D901AAF940400630723 /* TCSBooksListViewController.m */; };
+		0831A5751AC7718100637777 /* TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946371AB5A0440033A367 /* TCSBookDetailThumbnailCell.m */; };
+		0831A5761AC7718100637777 /* TCSHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07451AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m */; };
+		0831A5771AC7718100637777 /* TCSBookImageLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F91AB244E6007FE2CA /* TCSBookImageLinks.m */; };
+		0831A5781AC7718100637777 /* TCSBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE074D1AB0C20D00CAE22D /* TCSBaseObject.m */; };
+		0831A5791AC7718100637777 /* TCSAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8931AC352AE007187C3 /* TCSAnalytics.m */; };
+		0831A57A1AC7718100637777 /* TCSBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806FC1AB24653007FE2CA /* TCSBookInfo.m */; };
+		0831A57B1AC7718100637777 /* TCSBooksListItem+TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F61AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m */; };
+		0831A57C1AC7718100637777 /* TCSRequestOperationsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE075A1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m */; };
+		0831A57D1AC7718100637777 /* TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946401AB5AF550033A367 /* TCSBookDetailDescriptionCell.m */; };
+		0831A57E1AC7718100637777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24C1AAF8C5100C8A21C /* main.m */; };
+		0831A57F1AC7718100637777 /* TCSBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946331AB59E200033A367 /* TCSBookDetailViewController.m */; };
+		0831A5821AC7718100637777 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC5F879F36FE2FF0B4F020D /* libPods.a */; };
+		0831A5841AC7718100637777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2541AAF8C5100C8A21C /* Main.storyboard */; };
+		0831A5851AC7718100637777 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2591AAF8C5100C8A21C /* LaunchScreen.xib */; };
+		0831A5861AC7718100637777 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2571AAF8C5100C8A21C /* Images.xcassets */; };
+		0831A5901AC7724000637777 /* TCSNetworkObjectsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07541AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m */; };
+		0831A5911AC7724000637777 /* TCSBooksListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806EE1AB0DA4B007FE2CA /* TCSBooksListItem.m */; };
+		0831A5921AC7724000637777 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0859463D1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m */; };
+		0831A5931AC7724000637777 /* TCSBookAccessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C005201AB5D7D10062E01D /* TCSBookAccessInfo.m */; };
+		0831A5941AC7724000637777 /* TCSRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B2521AAF8C5100C8A21C /* TCSRequestViewController.m */; };
+		0831A5951AC7724000637777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24F1AAF8C5100C8A21C /* AppDelegate.m */; };
+		0831A5961AC7724000637777 /* TCSHTTPRequestOperationManager+Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07491AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m */; };
+		0831A5971AC7724000637777 /* TCSEventConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8981AC3714F007187C3 /* TCSEventConstants.m */; };
+		0831A5981AC7724000637777 /* TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F21AB0DEF9007FE2CA /* TCSBooksListCell.m */; };
+		0831A5991AC7724000637777 /* NSString+SizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946441AB5B4DE0033A367 /* NSString+SizeWithFont.m */; };
+		0831A59A1AC7724000637777 /* TCSBooksList.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07571AB0C92200CAE22D /* TCSBooksList.m */; };
+		0831A59B1AC7724000637777 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946471AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m */; };
+		0831A59C1AC7724000637777 /* TCSBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D95D901AAF940400630723 /* TCSBooksListViewController.m */; };
+		0831A59D1AC7724000637777 /* TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946371AB5A0440033A367 /* TCSBookDetailThumbnailCell.m */; };
+		0831A59E1AC7724000637777 /* TCSHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07451AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m */; };
+		0831A59F1AC7724000637777 /* TCSBookImageLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F91AB244E6007FE2CA /* TCSBookImageLinks.m */; };
+		0831A5A01AC7724000637777 /* TCSBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE074D1AB0C20D00CAE22D /* TCSBaseObject.m */; };
+		0831A5A11AC7724000637777 /* TCSAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8931AC352AE007187C3 /* TCSAnalytics.m */; };
+		0831A5A21AC7724000637777 /* TCSBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806FC1AB24653007FE2CA /* TCSBookInfo.m */; };
+		0831A5A31AC7724000637777 /* TCSBooksListItem+TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F61AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m */; };
+		0831A5A41AC7724000637777 /* TCSRequestOperationsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE075A1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m */; };
+		0831A5A51AC7724000637777 /* TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946401AB5AF550033A367 /* TCSBookDetailDescriptionCell.m */; };
+		0831A5A61AC7724000637777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24C1AAF8C5100C8A21C /* main.m */; };
+		0831A5A71AC7724000637777 /* TCSBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946331AB59E200033A367 /* TCSBookDetailViewController.m */; };
+		0831A5A91AC7724000637777 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC5F879F36FE2FF0B4F020D /* libPods.a */; };
+		0831A5AB1AC7724000637777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2541AAF8C5100C8A21C /* Main.storyboard */; };
+		0831A5AC1AC7724000637777 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2591AAF8C5100C8A21C /* LaunchScreen.xib */; };
+		0831A5AD1AC7724000637777 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2571AAF8C5100C8A21C /* Images.xcassets */; };
+		0831A67C1AC773F100637777 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A62E1AC773F100637777 /* libAdIdAccess.a */; };
+		0831A67D1AC773F100637777 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A62F1AC773F100637777 /* libGoogleAnalyticsServices.a */; };
+		0831A6861AC774EC00637777 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A6851AC774EC00637777 /* CoreData.framework */; };
+		0831A6881AC774FA00637777 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A6871AC774FA00637777 /* SystemConfiguration.framework */; };
+		0831A68A1AC7750500637777 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A6891AC7750500637777 /* libz.dylib */; };
+		0831A68C1AC7751300637777 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A68B1AC7751300637777 /* libsqlite3.dylib */; };
+		0831A68E1AC776EB00637777 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A68D1AC776EB00637777 /* AdSupport.framework */; };
+		083806EF1AB0DA4B007FE2CA /* TCSBooksListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806EE1AB0DA4B007FE2CA /* TCSBooksListItem.m */; };
+		083806F31AB0DEF9007FE2CA /* TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F21AB0DEF9007FE2CA /* TCSBooksListCell.m */; };
+		083806F71AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F61AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m */; };
+		083806FA1AB244E6007FE2CA /* TCSBookImageLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F91AB244E6007FE2CA /* TCSBookImageLinks.m */; };
+		083806FD1AB24653007FE2CA /* TCSBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806FC1AB24653007FE2CA /* TCSBookInfo.m */; };
+		0853B24D1AAF8C5100C8A21C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24C1AAF8C5100C8A21C /* main.m */; };
+		0853B2501AAF8C5100C8A21C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24F1AAF8C5100C8A21C /* AppDelegate.m */; };
+		0853B2531AAF8C5100C8A21C /* TCSRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B2521AAF8C5100C8A21C /* TCSRequestViewController.m */; };
+		0853B2561AAF8C5100C8A21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2541AAF8C5100C8A21C /* Main.storyboard */; };
+		0853B2581AAF8C5100C8A21C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2571AAF8C5100C8A21C /* Images.xcassets */; };
+		0853B25B1AAF8C5100C8A21C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2591AAF8C5100C8A21C /* LaunchScreen.xib */; };
+		085946341AB59E200033A367 /* TCSBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946331AB59E200033A367 /* TCSBookDetailViewController.m */; };
+		085946381AB5A0440033A367 /* TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946371AB5A0440033A367 /* TCSBookDetailThumbnailCell.m */; };
+		0859463E1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0859463D1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m */; };
+		085946411AB5AF550033A367 /* TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946401AB5AF550033A367 /* TCSBookDetailDescriptionCell.m */; };
+		085946451AB5B4DE0033A367 /* NSString+SizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946441AB5B4DE0033A367 /* NSString+SizeWithFont.m */; };
+		085946481AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946471AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m */; };
+		08B5EC5F1ACB514C000DBD10 /* TCSNetworkObjectsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07541AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m */; };
+		08B5EC601ACB514C000DBD10 /* TCSBooksListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806EE1AB0DA4B007FE2CA /* TCSBooksListItem.m */; };
+		08B5EC611ACB514C000DBD10 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0859463D1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m */; };
+		08B5EC621ACB514C000DBD10 /* TCSBookAccessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C005201AB5D7D10062E01D /* TCSBookAccessInfo.m */; };
+		08B5EC631ACB514C000DBD10 /* TCSRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B2521AAF8C5100C8A21C /* TCSRequestViewController.m */; };
+		08B5EC641ACB514C000DBD10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24F1AAF8C5100C8A21C /* AppDelegate.m */; };
+		08B5EC651ACB514C000DBD10 /* TCSHTTPRequestOperationManager+Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07491AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m */; };
+		08B5EC661ACB514C000DBD10 /* TCSEventConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8981AC3714F007187C3 /* TCSEventConstants.m */; };
+		08B5EC671ACB514C000DBD10 /* TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F21AB0DEF9007FE2CA /* TCSBooksListCell.m */; };
+		08B5EC681ACB514C000DBD10 /* NSString+SizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946441AB5B4DE0033A367 /* NSString+SizeWithFont.m */; };
+		08B5EC691ACB514C000DBD10 /* TCSBooksList.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07571AB0C92200CAE22D /* TCSBooksList.m */; };
+		08B5EC6A1ACB514C000DBD10 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946471AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m */; };
+		08B5EC6B1ACB514C000DBD10 /* TCSBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D95D901AAF940400630723 /* TCSBooksListViewController.m */; };
+		08B5EC6C1ACB514C000DBD10 /* TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946371AB5A0440033A367 /* TCSBookDetailThumbnailCell.m */; };
+		08B5EC6D1ACB514C000DBD10 /* TCSHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07451AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m */; };
+		08B5EC6E1ACB514C000DBD10 /* TCSBookImageLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F91AB244E6007FE2CA /* TCSBookImageLinks.m */; };
+		08B5EC6F1ACB514C000DBD10 /* TCSBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE074D1AB0C20D00CAE22D /* TCSBaseObject.m */; };
+		08B5EC701ACB514C000DBD10 /* TCSAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8931AC352AE007187C3 /* TCSAnalytics.m */; };
+		08B5EC711ACB514C000DBD10 /* TCSBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806FC1AB24653007FE2CA /* TCSBookInfo.m */; };
+		08B5EC721ACB514C000DBD10 /* TCSBooksListItem+TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F61AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m */; };
+		08B5EC731ACB514C000DBD10 /* TCSRequestOperationsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE075A1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m */; };
+		08B5EC741ACB514C000DBD10 /* TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946401AB5AF550033A367 /* TCSBookDetailDescriptionCell.m */; };
+		08B5EC751ACB514C000DBD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24C1AAF8C5100C8A21C /* main.m */; };
+		08B5EC761ACB514C000DBD10 /* TCSBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946331AB59E200033A367 /* TCSBookDetailViewController.m */; };
+		08B5EC781ACB514C000DBD10 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC5F879F36FE2FF0B4F020D /* libPods.a */; };
+		08B5EC7A1ACB514C000DBD10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2541AAF8C5100C8A21C /* Main.storyboard */; };
+		08B5EC7B1ACB514C000DBD10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2591AAF8C5100C8A21C /* LaunchScreen.xib */; };
+		08B5EC7C1ACB514C000DBD10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2571AAF8C5100C8A21C /* Images.xcassets */; };
+		08B5EC841ACC69C7000DBD10 /* libFlurry_6.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F9F8871AC0ADD3007187C3 /* libFlurry_6.2.0.a */; };
+		08B5EC861ACC6A01000DBD10 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A62E1AC773F100637777 /* libAdIdAccess.a */; };
+		08B5EC871ACC6A04000DBD10 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A62F1AC773F100637777 /* libGoogleAnalyticsServices.a */; };
+		08B5EC881ACC6A4F000DBD10 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A6851AC774EC00637777 /* CoreData.framework */; };
+		08B5EC891ACC6A58000DBD10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A6871AC774FA00637777 /* SystemConfiguration.framework */; };
+		08B5EC8A1ACC6A64000DBD10 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A68D1AC776EB00637777 /* AdSupport.framework */; };
+		08B5EC8B1ACC6A73000DBD10 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A68B1AC7751300637777 /* libsqlite3.dylib */; };
+		08B5EC8C1ACC6A90000DBD10 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0831A6891AC7750500637777 /* libz.dylib */; };
+		08C005211AB5D7D10062E01D /* TCSBookAccessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C005201AB5D7D10062E01D /* TCSBookAccessInfo.m */; };
+		08D95D911AAF940400630723 /* TCSBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D95D901AAF940400630723 /* TCSBooksListViewController.m */; };
+		08F9F8611AC0ACA3007187C3 /* TCSNetworkObjectsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07541AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m */; };
+		08F9F8621AC0ACA3007187C3 /* TCSBooksListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806EE1AB0DA4B007FE2CA /* TCSBooksListItem.m */; };
+		08F9F8631AC0ACA3007187C3 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0859463D1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m */; };
+		08F9F8641AC0ACA3007187C3 /* TCSBookAccessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C005201AB5D7D10062E01D /* TCSBookAccessInfo.m */; };
+		08F9F8651AC0ACA3007187C3 /* TCSRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B2521AAF8C5100C8A21C /* TCSRequestViewController.m */; };
+		08F9F8661AC0ACA3007187C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24F1AAF8C5100C8A21C /* AppDelegate.m */; };
+		08F9F8671AC0ACA3007187C3 /* TCSHTTPRequestOperationManager+Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07491AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m */; };
+		08F9F8681AC0ACA3007187C3 /* TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F21AB0DEF9007FE2CA /* TCSBooksListCell.m */; };
+		08F9F8691AC0ACA3007187C3 /* NSString+SizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946441AB5B4DE0033A367 /* NSString+SizeWithFont.m */; };
+		08F9F86A1AC0ACA3007187C3 /* TCSBooksList.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07571AB0C92200CAE22D /* TCSBooksList.m */; };
+		08F9F86B1AC0ACA3007187C3 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946471AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m */; };
+		08F9F86C1AC0ACA3007187C3 /* TCSBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D95D901AAF940400630723 /* TCSBooksListViewController.m */; };
+		08F9F86D1AC0ACA3007187C3 /* TCSBookDetailThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946371AB5A0440033A367 /* TCSBookDetailThumbnailCell.m */; };
+		08F9F86E1AC0ACA3007187C3 /* TCSHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07451AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m */; };
+		08F9F86F1AC0ACA3007187C3 /* TCSBookImageLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F91AB244E6007FE2CA /* TCSBookImageLinks.m */; };
+		08F9F8701AC0ACA3007187C3 /* TCSBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE074D1AB0C20D00CAE22D /* TCSBaseObject.m */; };
+		08F9F8711AC0ACA3007187C3 /* TCSBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806FC1AB24653007FE2CA /* TCSBookInfo.m */; };
+		08F9F8721AC0ACA3007187C3 /* TCSBooksListItem+TCSBooksListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 083806F61AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m */; };
+		08F9F8731AC0ACA3007187C3 /* TCSRequestOperationsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE075A1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m */; };
+		08F9F8741AC0ACA3007187C3 /* TCSBookDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946401AB5AF550033A367 /* TCSBookDetailDescriptionCell.m */; };
+		08F9F8751AC0ACA3007187C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853B24C1AAF8C5100C8A21C /* main.m */; };
+		08F9F8761AC0ACA3007187C3 /* TCSBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085946331AB59E200033A367 /* TCSBookDetailViewController.m */; };
+		08F9F8781AC0ACA3007187C3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC5F879F36FE2FF0B4F020D /* libPods.a */; };
+		08F9F87A1AC0ACA3007187C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2541AAF8C5100C8A21C /* Main.storyboard */; };
+		08F9F87B1AC0ACA3007187C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2591AAF8C5100C8A21C /* LaunchScreen.xib */; };
+		08F9F87C1AC0ACA3007187C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0853B2571AAF8C5100C8A21C /* Images.xcassets */; };
+		08F9F8881AC0ADD3007187C3 /* libFlurry_6.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F9F8871AC0ADD3007187C3 /* libFlurry_6.2.0.a */; };
+		08F9F8951AC354D6007187C3 /* TCSAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8931AC352AE007187C3 /* TCSAnalytics.m */; };
+		08F9F89A1AC371AE007187C3 /* TCSEventConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F9F8981AC3714F007187C3 /* TCSEventConstants.m */; };
+		08FE07461AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07451AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m */; };
+		08FE074A1AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07491AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m */; };
+		08FE074E1AB0C20D00CAE22D /* TCSBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE074D1AB0C20D00CAE22D /* TCSBaseObject.m */; };
+		08FE07551AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07541AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m */; };
+		08FE07581AB0C92200CAE22D /* TCSBooksList.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE07571AB0C92200CAE22D /* TCSBooksList.m */; };
+		08FE075B1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE075A1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m */; };
+		B4097FDD0E3BBCB595DB5627 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC5F879F36FE2FF0B4F020D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0831A58B1AC7718100637777 /* BookReaderGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookReaderGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0831A58C1AC7718100637777 /* BookReaderGoogle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BookReaderGoogle-Info.plist"; path = "/Users/artyomkiss/Dropbox/Development/BookReader/BookReader/BookReaderGoogle-Info.plist"; sourceTree = "<absolute>"; };
+		0831A5B21AC7724000637777 /* BookReaderYandex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookReaderYandex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0831A5B31AC7724100637777 /* BookReaderYandex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BookReaderYandex-Info.plist"; path = "/Users/artyomkiss/Dropbox/Development/BookReader/BookReader/BookReaderYandex-Info.plist"; sourceTree = "<absolute>"; };
+		0831A5E21AC773F100637777 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		0831A5E31AC773F100637777 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		0831A5E41AC773F100637777 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		0831A5E51AC773F100637777 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		0831A5E61AC773F100637777 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		0831A5E71AC773F100637777 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		0831A5E81AC773F100637777 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		0831A5E91AC773F100637777 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		0831A5EA1AC773F100637777 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		0831A5EB1AC773F100637777 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		0831A6281AC773F100637777 /* TAGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		0831A6291AC773F100637777 /* TAGContainerOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		0831A62A1AC773F100637777 /* TAGDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		0831A62B1AC773F100637777 /* TAGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		0831A62C1AC773F100637777 /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		0831A62E1AC773F100637777 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		0831A62F1AC773F100637777 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		0831A6851AC774EC00637777 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0831A6871AC774FA00637777 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0831A6891AC7750500637777 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0831A68B1AC7751300637777 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0831A68D1AC776EB00637777 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		083806ED1AB0DA4B007FE2CA /* TCSBooksListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBooksListItem.h; sourceTree = "<group>"; };
+		083806EE1AB0DA4B007FE2CA /* TCSBooksListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBooksListItem.m; sourceTree = "<group>"; };
+		083806F11AB0DEF9007FE2CA /* TCSBooksListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBooksListCell.h; sourceTree = "<group>"; };
+		083806F21AB0DEF9007FE2CA /* TCSBooksListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBooksListCell.m; sourceTree = "<group>"; };
+		083806F51AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCSBooksListItem+TCSBooksListCell.h"; sourceTree = "<group>"; };
+		083806F61AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCSBooksListItem+TCSBooksListCell.m"; sourceTree = "<group>"; };
+		083806F81AB244E6007FE2CA /* TCSBookImageLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBookImageLinks.h; sourceTree = "<group>"; };
+		083806F91AB244E6007FE2CA /* TCSBookImageLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBookImageLinks.m; sourceTree = "<group>"; };
+		083806FB1AB24653007FE2CA /* TCSBookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBookInfo.h; sourceTree = "<group>"; };
+		083806FC1AB24653007FE2CA /* TCSBookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBookInfo.m; sourceTree = "<group>"; };
+		0853B2471AAF8C5100C8A21C /* BookReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0853B24B1AAF8C5100C8A21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0853B24C1AAF8C5100C8A21C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0853B24E1AAF8C5100C8A21C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0853B24F1AAF8C5100C8A21C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0853B2511AAF8C5100C8A21C /* TCSRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSRequestViewController.h; sourceTree = "<group>"; };
+		0853B2521AAF8C5100C8A21C /* TCSRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSRequestViewController.m; sourceTree = "<group>"; };
+		0853B2551AAF8C5100C8A21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0853B2571AAF8C5100C8A21C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0853B25A1AAF8C5100C8A21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		085946321AB59E200033A367 /* TCSBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBookDetailViewController.h; sourceTree = "<group>"; };
+		085946331AB59E200033A367 /* TCSBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBookDetailViewController.m; sourceTree = "<group>"; };
+		085946361AB5A0440033A367 /* TCSBookDetailThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBookDetailThumbnailCell.h; sourceTree = "<group>"; };
+		085946371AB5A0440033A367 /* TCSBookDetailThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBookDetailThumbnailCell.m; sourceTree = "<group>"; };
+		0859463C1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCSBooksListItem+TCSBookDetailThumbnailCell.h"; sourceTree = "<group>"; };
+		0859463D1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCSBooksListItem+TCSBookDetailThumbnailCell.m"; sourceTree = "<group>"; };
+		0859463F1AB5AF550033A367 /* TCSBookDetailDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBookDetailDescriptionCell.h; sourceTree = "<group>"; };
+		085946401AB5AF550033A367 /* TCSBookDetailDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBookDetailDescriptionCell.m; sourceTree = "<group>"; };
+		085946431AB5B4DE0033A367 /* NSString+SizeWithFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SizeWithFont.h"; sourceTree = "<group>"; };
+		085946441AB5B4DE0033A367 /* NSString+SizeWithFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SizeWithFont.m"; sourceTree = "<group>"; };
+		085946461AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCSBooksListItem+TCSBookDetailDescriptionCell.h"; sourceTree = "<group>"; };
+		085946471AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCSBooksListItem+TCSBookDetailDescriptionCell.m"; sourceTree = "<group>"; };
+		08B5EC811ACB514C000DBD10 /* BookReaderAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookReaderAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B5EC821ACB514D000DBD10 /* BookReaderAll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BookReaderAll-Info.plist"; path = "/Users/artyomkiss/Dropbox/Development/BookReader/BookReader/BookReaderAll-Info.plist"; sourceTree = "<absolute>"; };
+		08C0051F1AB5D7D10062E01D /* TCSBookAccessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBookAccessInfo.h; sourceTree = "<group>"; };
+		08C005201AB5D7D10062E01D /* TCSBookAccessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBookAccessInfo.m; sourceTree = "<group>"; };
+		08D95D8F1AAF940400630723 /* TCSBooksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBooksListViewController.h; sourceTree = "<group>"; };
+		08D95D901AAF940400630723 /* TCSBooksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBooksListViewController.m; sourceTree = "<group>"; };
+		08F9F8821AC0ACA3007187C3 /* BookReader Flurry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BookReader Flurry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F9F8831AC0ACA4007187C3 /* BookReader Flurry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BookReader Flurry-Info.plist"; path = "/Users/artyomkiss/Dropbox/Development/BookReader/BookReader/BookReader Flurry-Info.plist"; sourceTree = "<absolute>"; };
+		08F9F8861AC0ADD3007187C3 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		08F9F8871AC0ADD3007187C3 /* libFlurry_6.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.2.0.a; sourceTree = "<group>"; };
+		08F9F8921AC352AE007187C3 /* TCSAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSAnalytics.h; sourceTree = "<group>"; };
+		08F9F8931AC352AE007187C3 /* TCSAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSAnalytics.m; sourceTree = "<group>"; };
+		08F9F8971AC3714F007187C3 /* TCSEventConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSEventConstants.h; sourceTree = "<group>"; };
+		08F9F8981AC3714F007187C3 /* TCSEventConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSEventConstants.m; sourceTree = "<group>"; };
+		08FE07441AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		08FE07451AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		08FE07471AB0BDDB00CAE22D /* TCSMacroses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSMacroses.h; sourceTree = "<group>"; };
+		08FE07481AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCSHTTPRequestOperationManager+Requests.h"; sourceTree = "<group>"; };
+		08FE07491AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCSHTTPRequestOperationManager+Requests.m"; sourceTree = "<group>"; };
+		08FE074C1AB0C20D00CAE22D /* TCSBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBaseObject.h; sourceTree = "<group>"; };
+		08FE074D1AB0C20D00CAE22D /* TCSBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBaseObject.m; sourceTree = "<group>"; };
+		08FE074F1AB0C2FF00CAE22D /* SynthesizeStringConts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeStringConts.h; sourceTree = "<group>"; };
+		08FE07531AB0C34400CAE22D /* TCSNetworkObjectsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSNetworkObjectsConstants.h; sourceTree = "<group>"; };
+		08FE07541AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSNetworkObjectsConstants.m; sourceTree = "<group>"; };
+		08FE07561AB0C92200CAE22D /* TCSBooksList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSBooksList.h; sourceTree = "<group>"; };
+		08FE07571AB0C92200CAE22D /* TCSBooksList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSBooksList.m; sourceTree = "<group>"; };
+		08FE07591AB0C98C00CAE22D /* TCSRequestOperationsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSRequestOperationsConstants.h; sourceTree = "<group>"; };
+		08FE075A1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSRequestOperationsConstants.m; sourceTree = "<group>"; };
+		4757CA8D3CF3C62D14BD18FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8E6C00DA79A3EE6D0CE1A263 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC5F879F36FE2FF0B4F020D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0831A5801AC7718100637777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831A68E1AC776EB00637777 /* AdSupport.framework in Frameworks */,
+				0831A68C1AC7751300637777 /* libsqlite3.dylib in Frameworks */,
+				0831A68A1AC7750500637777 /* libz.dylib in Frameworks */,
+				0831A6881AC774FA00637777 /* SystemConfiguration.framework in Frameworks */,
+				0831A6861AC774EC00637777 /* CoreData.framework in Frameworks */,
+				0831A5821AC7718100637777 /* libPods.a in Frameworks */,
+				0831A67C1AC773F100637777 /* libAdIdAccess.a in Frameworks */,
+				0831A67D1AC773F100637777 /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0831A5A81AC7724000637777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831A5A91AC7724000637777 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0853B2441AAF8C5100C8A21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4097FDD0E3BBCB595DB5627 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B5EC771ACB514C000DBD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B5EC8C1ACC6A90000DBD10 /* libz.dylib in Frameworks */,
+				08B5EC8B1ACC6A73000DBD10 /* libsqlite3.dylib in Frameworks */,
+				08B5EC8A1ACC6A64000DBD10 /* AdSupport.framework in Frameworks */,
+				08B5EC891ACC6A58000DBD10 /* SystemConfiguration.framework in Frameworks */,
+				08B5EC881ACC6A4F000DBD10 /* CoreData.framework in Frameworks */,
+				08B5EC841ACC69C7000DBD10 /* libFlurry_6.2.0.a in Frameworks */,
+				08B5EC861ACC6A01000DBD10 /* libAdIdAccess.a in Frameworks */,
+				08B5EC781ACB514C000DBD10 /* libPods.a in Frameworks */,
+				08B5EC871ACC6A04000DBD10 /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F9F8771AC0ACA3007187C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F9F8881AC0ADD3007187C3 /* libFlurry_6.2.0.a in Frameworks */,
+				08F9F8781AC0ACA3007187C3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0831A5B41AC773F100637777 /* GoogleAnalyticsServicesiOS_3.10 */ = {
+			isa = PBXGroup;
+			children = (
+				0831A5B51AC773F100637777 /* GoogleAnalytics */,
+				0831A5ED1AC773F100637777 /* GoogleTagManager */,
+				0831A62E1AC773F100637777 /* libAdIdAccess.a */,
+				0831A62F1AC773F100637777 /* libGoogleAnalyticsServices.a */,
+			);
+			path = GoogleAnalyticsServicesiOS_3.10;
+			sourceTree = "<group>";
+		};
+		0831A5B51AC773F100637777 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				0831A5E11AC773F100637777 /* Library */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		0831A5E11AC773F100637777 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0831A5E21AC773F100637777 /* GAI.h */,
+				0831A5E31AC773F100637777 /* GAIDictionaryBuilder.h */,
+				0831A5E41AC773F100637777 /* GAIEcommerceFields.h */,
+				0831A5E51AC773F100637777 /* GAIEcommerceProduct.h */,
+				0831A5E61AC773F100637777 /* GAIEcommerceProductAction.h */,
+				0831A5E71AC773F100637777 /* GAIEcommercePromotion.h */,
+				0831A5E81AC773F100637777 /* GAIFields.h */,
+				0831A5E91AC773F100637777 /* GAILogger.h */,
+				0831A5EA1AC773F100637777 /* GAITrackedViewController.h */,
+				0831A5EB1AC773F100637777 /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0831A5ED1AC773F100637777 /* GoogleTagManager */ = {
+			isa = PBXGroup;
+			children = (
+				0831A6271AC773F100637777 /* Library */,
+			);
+			path = GoogleTagManager;
+			sourceTree = "<group>";
+		};
+		0831A6271AC773F100637777 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0831A6281AC773F100637777 /* TAGContainer.h */,
+				0831A6291AC773F100637777 /* TAGContainerOpener.h */,
+				0831A62A1AC773F100637777 /* TAGDataLayer.h */,
+				0831A62B1AC773F100637777 /* TAGLogger.h */,
+				0831A62C1AC773F100637777 /* TAGManager.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		083806F01AB0DECF007FE2CA /* Books List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08D95D8F1AAF940400630723 /* TCSBooksListViewController.h */,
+				08D95D901AAF940400630723 /* TCSBooksListViewController.m */,
+				083806F11AB0DEF9007FE2CA /* TCSBooksListCell.h */,
+				083806F21AB0DEF9007FE2CA /* TCSBooksListCell.m */,
+				083806F51AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.h */,
+				083806F61AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m */,
+			);
+			name = "Books List View Controller";
+			sourceTree = "<group>";
+		};
+		0853B23E1AAF8C5100C8A21C = {
+			isa = PBXGroup;
+			children = (
+				0853B2491AAF8C5100C8A21C /* BookReader */,
+				0853B2481AAF8C5100C8A21C /* Products */,
+				6FF22EF53B278D182AA2B2DE /* Pods */,
+				7F84C3F00826629424D89B5B /* Frameworks */,
+				08F9F8831AC0ACA4007187C3 /* BookReader Flurry-Info.plist */,
+				0831A58C1AC7718100637777 /* BookReaderGoogle-Info.plist */,
+				0831A5B31AC7724100637777 /* BookReaderYandex-Info.plist */,
+				08B5EC821ACB514D000DBD10 /* BookReaderAll-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		0853B2481AAF8C5100C8A21C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0853B2471AAF8C5100C8A21C /* BookReader.app */,
+				08F9F8821AC0ACA3007187C3 /* BookReader Flurry.app */,
+				0831A58B1AC7718100637777 /* BookReaderGoogle.app */,
+				0831A5B21AC7724000637777 /* BookReaderYandex.app */,
+				08B5EC811ACB514C000DBD10 /* BookReaderAll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0853B2491AAF8C5100C8A21C /* BookReader */ = {
+			isa = PBXGroup;
+			children = (
+				08F9F8841AC0ADB6007187C3 /* Analytics */,
+				08D95D8C1AAF931200630723 /* Network */,
+				08D95D8D1AAF934200630723 /* App Delegate */,
+				08D95D8E1AAF934D00630723 /* View Controllers */,
+				085946421AB5B45D0033A367 /* Categories */,
+				0853B2541AAF8C5100C8A21C /* Main.storyboard */,
+				0853B2571AAF8C5100C8A21C /* Images.xcassets */,
+				0853B2591AAF8C5100C8A21C /* LaunchScreen.xib */,
+				08FE07521AB0C30900CAE22D /* Macroses */,
+				0853B24A1AAF8C5100C8A21C /* Supporting Files */,
+			);
+			path = BookReader;
+			sourceTree = "<group>";
+		};
+		0853B24A1AAF8C5100C8A21C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0853B24B1AAF8C5100C8A21C /* Info.plist */,
+				0853B24C1AAF8C5100C8A21C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		085946311AB59DEE0033A367 /* Request View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0853B2511AAF8C5100C8A21C /* TCSRequestViewController.h */,
+				0853B2521AAF8C5100C8A21C /* TCSRequestViewController.m */,
+			);
+			name = "Request View Controller";
+			sourceTree = "<group>";
+		};
+		085946351AB59E300033A367 /* Book Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				085946321AB59E200033A367 /* TCSBookDetailViewController.h */,
+				085946331AB59E200033A367 /* TCSBookDetailViewController.m */,
+				085946491AB5B7E60033A367 /* Detail Thumbnail Cell */,
+				0859464A1AB5B7F50033A367 /* Detail Description Cell */,
+			);
+			name = "Book Detail View Controller";
+			sourceTree = "<group>";
+		};
+		085946421AB5B45D0033A367 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				085946431AB5B4DE0033A367 /* NSString+SizeWithFont.h */,
+				085946441AB5B4DE0033A367 /* NSString+SizeWithFont.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		085946491AB5B7E60033A367 /* Detail Thumbnail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				085946361AB5A0440033A367 /* TCSBookDetailThumbnailCell.h */,
+				085946371AB5A0440033A367 /* TCSBookDetailThumbnailCell.m */,
+				0859463C1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.h */,
+				0859463D1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m */,
+			);
+			name = "Detail Thumbnail Cell";
+			sourceTree = "<group>";
+		};
+		0859464A1AB5B7F50033A367 /* Detail Description Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0859463F1AB5AF550033A367 /* TCSBookDetailDescriptionCell.h */,
+				085946401AB5AF550033A367 /* TCSBookDetailDescriptionCell.m */,
+				085946461AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.h */,
+				085946471AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m */,
+			);
+			name = "Detail Description Cell";
+			sourceTree = "<group>";
+		};
+		08D95D8C1AAF931200630723 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				08FE074B1AB0C1D400CAE22D /* Network Objects */,
+				08FE07591AB0C98C00CAE22D /* TCSRequestOperationsConstants.h */,
+				08FE075A1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m */,
+				08FE07441AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.h */,
+				08FE07451AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m */,
+				08FE07481AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.h */,
+				08FE07491AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		08D95D8D1AAF934200630723 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0853B24E1AAF8C5100C8A21C /* AppDelegate.h */,
+				0853B24F1AAF8C5100C8A21C /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		08D95D8E1AAF934D00630723 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				085946311AB59DEE0033A367 /* Request View Controller */,
+				083806F01AB0DECF007FE2CA /* Books List View Controller */,
+				085946351AB59E300033A367 /* Book Detail View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		08F9F8841AC0ADB6007187C3 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				08F9F8921AC352AE007187C3 /* TCSAnalytics.h */,
+				08F9F8931AC352AE007187C3 /* TCSAnalytics.m */,
+				0831A5B41AC773F100637777 /* GoogleAnalyticsServicesiOS_3.10 */,
+				08F9F8851AC0ADD3007187C3 /* Flurry */,
+				08F9F8961AC370FC007187C3 /* Events Constants */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		08F9F8851AC0ADD3007187C3 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				08F9F8861AC0ADD3007187C3 /* Flurry.h */,
+				08F9F8871AC0ADD3007187C3 /* libFlurry_6.2.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		08F9F8961AC370FC007187C3 /* Events Constants */ = {
+			isa = PBXGroup;
+			children = (
+				08F9F8971AC3714F007187C3 /* TCSEventConstants.h */,
+				08F9F8981AC3714F007187C3 /* TCSEventConstants.m */,
+			);
+			name = "Events Constants";
+			sourceTree = "<group>";
+		};
+		08FE074B1AB0C1D400CAE22D /* Network Objects */ = {
+			isa = PBXGroup;
+			children = (
+				08FE07531AB0C34400CAE22D /* TCSNetworkObjectsConstants.h */,
+				08FE07541AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m */,
+				08FE074C1AB0C20D00CAE22D /* TCSBaseObject.h */,
+				08FE074D1AB0C20D00CAE22D /* TCSBaseObject.m */,
+				08FE07561AB0C92200CAE22D /* TCSBooksList.h */,
+				08FE07571AB0C92200CAE22D /* TCSBooksList.m */,
+				083806ED1AB0DA4B007FE2CA /* TCSBooksListItem.h */,
+				083806EE1AB0DA4B007FE2CA /* TCSBooksListItem.m */,
+				083806FB1AB24653007FE2CA /* TCSBookInfo.h */,
+				083806FC1AB24653007FE2CA /* TCSBookInfo.m */,
+				08C0051F1AB5D7D10062E01D /* TCSBookAccessInfo.h */,
+				08C005201AB5D7D10062E01D /* TCSBookAccessInfo.m */,
+				083806F81AB244E6007FE2CA /* TCSBookImageLinks.h */,
+				083806F91AB244E6007FE2CA /* TCSBookImageLinks.m */,
+			);
+			name = "Network Objects";
+			sourceTree = "<group>";
+		};
+		08FE07521AB0C30900CAE22D /* Macroses */ = {
+			isa = PBXGroup;
+			children = (
+				08FE07471AB0BDDB00CAE22D /* TCSMacroses.h */,
+				08FE074F1AB0C2FF00CAE22D /* SynthesizeStringConts.h */,
+			);
+			name = Macroses;
+			sourceTree = "<group>";
+		};
+		6FF22EF53B278D182AA2B2DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E6C00DA79A3EE6D0CE1A263 /* Pods.debug.xcconfig */,
+				4757CA8D3CF3C62D14BD18FD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F84C3F00826629424D89B5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0831A68D1AC776EB00637777 /* AdSupport.framework */,
+				0831A68B1AC7751300637777 /* libsqlite3.dylib */,
+				0831A6891AC7750500637777 /* libz.dylib */,
+				0831A6871AC774FA00637777 /* SystemConfiguration.framework */,
+				0831A6851AC774EC00637777 /* CoreData.framework */,
+				EFC5F879F36FE2FF0B4F020D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0831A5651AC7718100637777 /* BookReaderGoogle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0831A5881AC7718100637777 /* Build configuration list for PBXNativeTarget "BookReaderGoogle" */;
+			buildPhases = (
+				0831A5661AC7718100637777 /* Check Pods Manifest.lock */,
+				0831A5671AC7718100637777 /* Sources */,
+				0831A5801AC7718100637777 /* Frameworks */,
+				0831A5831AC7718100637777 /* Resources */,
+				0831A5871AC7718100637777 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookReaderGoogle;
+			productName = BookReader;
+			productReference = 0831A58B1AC7718100637777 /* BookReaderGoogle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0831A58D1AC7724000637777 /* BookReaderYandex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0831A5AF1AC7724000637777 /* Build configuration list for PBXNativeTarget "BookReaderYandex" */;
+			buildPhases = (
+				0831A58E1AC7724000637777 /* Check Pods Manifest.lock */,
+				0831A58F1AC7724000637777 /* Sources */,
+				0831A5A81AC7724000637777 /* Frameworks */,
+				0831A5AA1AC7724000637777 /* Resources */,
+				0831A5AE1AC7724000637777 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookReaderYandex;
+			productName = BookReader;
+			productReference = 0831A5B21AC7724000637777 /* BookReaderYandex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0853B2461AAF8C5100C8A21C /* BookReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0853B26A1AAF8C5100C8A21C /* Build configuration list for PBXNativeTarget "BookReader" */;
+			buildPhases = (
+				3D644E5E0ECC8D1CE7001E32 /* Check Pods Manifest.lock */,
+				0853B2431AAF8C5100C8A21C /* Sources */,
+				0853B2441AAF8C5100C8A21C /* Frameworks */,
+				0853B2451AAF8C5100C8A21C /* Resources */,
+				F4A335C44EE94BAAC8FAE216 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookReader;
+			productName = BookReader;
+			productReference = 0853B2471AAF8C5100C8A21C /* BookReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08B5EC5C1ACB514C000DBD10 /* BookReaderAll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B5EC7E1ACB514C000DBD10 /* Build configuration list for PBXNativeTarget "BookReaderAll" */;
+			buildPhases = (
+				08B5EC5D1ACB514C000DBD10 /* Check Pods Manifest.lock */,
+				08B5EC5E1ACB514C000DBD10 /* Sources */,
+				08B5EC771ACB514C000DBD10 /* Frameworks */,
+				08B5EC791ACB514C000DBD10 /* Resources */,
+				08B5EC7D1ACB514C000DBD10 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookReaderAll;
+			productName = BookReader;
+			productReference = 08B5EC811ACB514C000DBD10 /* BookReaderAll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08F9F85E1AC0ACA3007187C3 /* BookReaderFlurry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F9F87E1AC0ACA3007187C3 /* Build configuration list for PBXNativeTarget "BookReaderFlurry" */;
+			buildPhases = (
+				08F9F85F1AC0ACA3007187C3 /* Check Pods Manifest.lock */,
+				08F9F8601AC0ACA3007187C3 /* Sources */,
+				08F9F8771AC0ACA3007187C3 /* Frameworks */,
+				08F9F8791AC0ACA3007187C3 /* Resources */,
+				08F9F87D1AC0ACA3007187C3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookReaderFlurry;
+			productName = BookReader;
+			productReference = 08F9F8821AC0ACA3007187C3 /* BookReader Flurry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0853B23F1AAF8C5100C8A21C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Artyom Kiselev";
+				TargetAttributes = {
+					0853B2461AAF8C5100C8A21C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0853B2421AAF8C5100C8A21C /* Build configuration list for PBXProject "BookReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0853B23E1AAF8C5100C8A21C;
+			productRefGroup = 0853B2481AAF8C5100C8A21C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0853B2461AAF8C5100C8A21C /* BookReader */,
+				08F9F85E1AC0ACA3007187C3 /* BookReaderFlurry */,
+				0831A5651AC7718100637777 /* BookReaderGoogle */,
+				0831A58D1AC7724000637777 /* BookReaderYandex */,
+				08B5EC5C1ACB514C000DBD10 /* BookReaderAll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0831A5831AC7718100637777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831A5841AC7718100637777 /* Main.storyboard in Resources */,
+				0831A5851AC7718100637777 /* LaunchScreen.xib in Resources */,
+				0831A5861AC7718100637777 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0831A5AA1AC7724000637777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831A5AB1AC7724000637777 /* Main.storyboard in Resources */,
+				0831A5AC1AC7724000637777 /* LaunchScreen.xib in Resources */,
+				0831A5AD1AC7724000637777 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0853B2451AAF8C5100C8A21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0853B2561AAF8C5100C8A21C /* Main.storyboard in Resources */,
+				0853B25B1AAF8C5100C8A21C /* LaunchScreen.xib in Resources */,
+				0853B2581AAF8C5100C8A21C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B5EC791ACB514C000DBD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B5EC7A1ACB514C000DBD10 /* Main.storyboard in Resources */,
+				08B5EC7B1ACB514C000DBD10 /* LaunchScreen.xib in Resources */,
+				08B5EC7C1ACB514C000DBD10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F9F8791AC0ACA3007187C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F9F87A1AC0ACA3007187C3 /* Main.storyboard in Resources */,
+				08F9F87B1AC0ACA3007187C3 /* LaunchScreen.xib in Resources */,
+				08F9F87C1AC0ACA3007187C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0831A5661AC7718100637777 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0831A5871AC7718100637777 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0831A58E1AC7724000637777 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0831A5AE1AC7724000637777 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08B5EC5D1ACB514C000DBD10 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08B5EC7D1ACB514C000DBD10 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08F9F85F1AC0ACA3007187C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08F9F87D1AC0ACA3007187C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D644E5E0ECC8D1CE7001E32 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A335C44EE94BAAC8FAE216 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0831A5671AC7718100637777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831A5681AC7718100637777 /* TCSNetworkObjectsConstants.m in Sources */,
+				0831A5691AC7718100637777 /* TCSBooksListItem.m in Sources */,
+				0831A56A1AC7718100637777 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */,
+				0831A56B1AC7718100637777 /* TCSBookAccessInfo.m in Sources */,
+				0831A56C1AC7718100637777 /* TCSRequestViewController.m in Sources */,
+				0831A56D1AC7718100637777 /* AppDelegate.m in Sources */,
+				0831A56E1AC7718100637777 /* TCSHTTPRequestOperationManager+Requests.m in Sources */,
+				0831A56F1AC7718100637777 /* TCSEventConstants.m in Sources */,
+				0831A5701AC7718100637777 /* TCSBooksListCell.m in Sources */,
+				0831A5711AC7718100637777 /* NSString+SizeWithFont.m in Sources */,
+				0831A5721AC7718100637777 /* TCSBooksList.m in Sources */,
+				0831A5731AC7718100637777 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */,
+				0831A5741AC7718100637777 /* TCSBooksListViewController.m in Sources */,
+				0831A5751AC7718100637777 /* TCSBookDetailThumbnailCell.m in Sources */,
+				0831A5761AC7718100637777 /* TCSHTTPRequestOperationManager.m in Sources */,
+				0831A5771AC7718100637777 /* TCSBookImageLinks.m in Sources */,
+				0831A5781AC7718100637777 /* TCSBaseObject.m in Sources */,
+				0831A5791AC7718100637777 /* TCSAnalytics.m in Sources */,
+				0831A57A1AC7718100637777 /* TCSBookInfo.m in Sources */,
+				0831A57B1AC7718100637777 /* TCSBooksListItem+TCSBooksListCell.m in Sources */,
+				0831A57C1AC7718100637777 /* TCSRequestOperationsConstants.m in Sources */,
+				0831A57D1AC7718100637777 /* TCSBookDetailDescriptionCell.m in Sources */,
+				0831A57E1AC7718100637777 /* main.m in Sources */,
+				0831A57F1AC7718100637777 /* TCSBookDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0831A58F1AC7724000637777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831A5901AC7724000637777 /* TCSNetworkObjectsConstants.m in Sources */,
+				0831A5911AC7724000637777 /* TCSBooksListItem.m in Sources */,
+				0831A5921AC7724000637777 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */,
+				0831A5931AC7724000637777 /* TCSBookAccessInfo.m in Sources */,
+				0831A5941AC7724000637777 /* TCSRequestViewController.m in Sources */,
+				0831A5951AC7724000637777 /* AppDelegate.m in Sources */,
+				0831A5961AC7724000637777 /* TCSHTTPRequestOperationManager+Requests.m in Sources */,
+				0831A5971AC7724000637777 /* TCSEventConstants.m in Sources */,
+				0831A5981AC7724000637777 /* TCSBooksListCell.m in Sources */,
+				0831A5991AC7724000637777 /* NSString+SizeWithFont.m in Sources */,
+				0831A59A1AC7724000637777 /* TCSBooksList.m in Sources */,
+				0831A59B1AC7724000637777 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */,
+				0831A59C1AC7724000637777 /* TCSBooksListViewController.m in Sources */,
+				0831A59D1AC7724000637777 /* TCSBookDetailThumbnailCell.m in Sources */,
+				0831A59E1AC7724000637777 /* TCSHTTPRequestOperationManager.m in Sources */,
+				0831A59F1AC7724000637777 /* TCSBookImageLinks.m in Sources */,
+				0831A5A01AC7724000637777 /* TCSBaseObject.m in Sources */,
+				0831A5A11AC7724000637777 /* TCSAnalytics.m in Sources */,
+				0831A5A21AC7724000637777 /* TCSBookInfo.m in Sources */,
+				0831A5A31AC7724000637777 /* TCSBooksListItem+TCSBooksListCell.m in Sources */,
+				0831A5A41AC7724000637777 /* TCSRequestOperationsConstants.m in Sources */,
+				0831A5A51AC7724000637777 /* TCSBookDetailDescriptionCell.m in Sources */,
+				0831A5A61AC7724000637777 /* main.m in Sources */,
+				0831A5A71AC7724000637777 /* TCSBookDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0853B2431AAF8C5100C8A21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FE07551AB0C75F00CAE22D /* TCSNetworkObjectsConstants.m in Sources */,
+				083806EF1AB0DA4B007FE2CA /* TCSBooksListItem.m in Sources */,
+				0859463E1AB5AB7C0033A367 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */,
+				08C005211AB5D7D10062E01D /* TCSBookAccessInfo.m in Sources */,
+				0853B2531AAF8C5100C8A21C /* TCSRequestViewController.m in Sources */,
+				0853B2501AAF8C5100C8A21C /* AppDelegate.m in Sources */,
+				08FE074A1AB0C0A200CAE22D /* TCSHTTPRequestOperationManager+Requests.m in Sources */,
+				083806F31AB0DEF9007FE2CA /* TCSBooksListCell.m in Sources */,
+				085946451AB5B4DE0033A367 /* NSString+SizeWithFont.m in Sources */,
+				08FE07581AB0C92200CAE22D /* TCSBooksList.m in Sources */,
+				085946481AB5B6DA0033A367 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */,
+				08D95D911AAF940400630723 /* TCSBooksListViewController.m in Sources */,
+				085946381AB5A0440033A367 /* TCSBookDetailThumbnailCell.m in Sources */,
+				08FE07461AB0BDC000CAE22D /* TCSHTTPRequestOperationManager.m in Sources */,
+				083806FA1AB244E6007FE2CA /* TCSBookImageLinks.m in Sources */,
+				08FE074E1AB0C20D00CAE22D /* TCSBaseObject.m in Sources */,
+				083806FD1AB24653007FE2CA /* TCSBookInfo.m in Sources */,
+				083806F71AB0DFD4007FE2CA /* TCSBooksListItem+TCSBooksListCell.m in Sources */,
+				08FE075B1AB0C98C00CAE22D /* TCSRequestOperationsConstants.m in Sources */,
+				085946411AB5AF550033A367 /* TCSBookDetailDescriptionCell.m in Sources */,
+				0853B24D1AAF8C5100C8A21C /* main.m in Sources */,
+				085946341AB59E200033A367 /* TCSBookDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B5EC5E1ACB514C000DBD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B5EC5F1ACB514C000DBD10 /* TCSNetworkObjectsConstants.m in Sources */,
+				08B5EC601ACB514C000DBD10 /* TCSBooksListItem.m in Sources */,
+				08B5EC611ACB514C000DBD10 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */,
+				08B5EC621ACB514C000DBD10 /* TCSBookAccessInfo.m in Sources */,
+				08B5EC631ACB514C000DBD10 /* TCSRequestViewController.m in Sources */,
+				08B5EC641ACB514C000DBD10 /* AppDelegate.m in Sources */,
+				08B5EC651ACB514C000DBD10 /* TCSHTTPRequestOperationManager+Requests.m in Sources */,
+				08B5EC661ACB514C000DBD10 /* TCSEventConstants.m in Sources */,
+				08B5EC671ACB514C000DBD10 /* TCSBooksListCell.m in Sources */,
+				08B5EC681ACB514C000DBD10 /* NSString+SizeWithFont.m in Sources */,
+				08B5EC691ACB514C000DBD10 /* TCSBooksList.m in Sources */,
+				08B5EC6A1ACB514C000DBD10 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */,
+				08B5EC6B1ACB514C000DBD10 /* TCSBooksListViewController.m in Sources */,
+				08B5EC6C1ACB514C000DBD10 /* TCSBookDetailThumbnailCell.m in Sources */,
+				08B5EC6D1ACB514C000DBD10 /* TCSHTTPRequestOperationManager.m in Sources */,
+				08B5EC6E1ACB514C000DBD10 /* TCSBookImageLinks.m in Sources */,
+				08B5EC6F1ACB514C000DBD10 /* TCSBaseObject.m in Sources */,
+				08B5EC701ACB514C000DBD10 /* TCSAnalytics.m in Sources */,
+				08B5EC711ACB514C000DBD10 /* TCSBookInfo.m in Sources */,
+				08B5EC721ACB514C000DBD10 /* TCSBooksListItem+TCSBooksListCell.m in Sources */,
+				08B5EC731ACB514C000DBD10 /* TCSRequestOperationsConstants.m in Sources */,
+				08B5EC741ACB514C000DBD10 /* TCSBookDetailDescriptionCell.m in Sources */,
+				08B5EC751ACB514C000DBD10 /* main.m in Sources */,
+				08B5EC761ACB514C000DBD10 /* TCSBookDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F9F8601AC0ACA3007187C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F9F8611AC0ACA3007187C3 /* TCSNetworkObjectsConstants.m in Sources */,
+				08F9F8621AC0ACA3007187C3 /* TCSBooksListItem.m in Sources */,
+				08F9F8631AC0ACA3007187C3 /* TCSBooksListItem+TCSBookDetailThumbnailCell.m in Sources */,
+				08F9F8641AC0ACA3007187C3 /* TCSBookAccessInfo.m in Sources */,
+				08F9F8651AC0ACA3007187C3 /* TCSRequestViewController.m in Sources */,
+				08F9F8661AC0ACA3007187C3 /* AppDelegate.m in Sources */,
+				08F9F8671AC0ACA3007187C3 /* TCSHTTPRequestOperationManager+Requests.m in Sources */,
+				08F9F89A1AC371AE007187C3 /* TCSEventConstants.m in Sources */,
+				08F9F8681AC0ACA3007187C3 /* TCSBooksListCell.m in Sources */,
+				08F9F8691AC0ACA3007187C3 /* NSString+SizeWithFont.m in Sources */,
+				08F9F86A1AC0ACA3007187C3 /* TCSBooksList.m in Sources */,
+				08F9F86B1AC0ACA3007187C3 /* TCSBooksListItem+TCSBookDetailDescriptionCell.m in Sources */,
+				08F9F86C1AC0ACA3007187C3 /* TCSBooksListViewController.m in Sources */,
+				08F9F86D1AC0ACA3007187C3 /* TCSBookDetailThumbnailCell.m in Sources */,
+				08F9F86E1AC0ACA3007187C3 /* TCSHTTPRequestOperationManager.m in Sources */,
+				08F9F86F1AC0ACA3007187C3 /* TCSBookImageLinks.m in Sources */,
+				08F9F8701AC0ACA3007187C3 /* TCSBaseObject.m in Sources */,
+				08F9F8951AC354D6007187C3 /* TCSAnalytics.m in Sources */,
+				08F9F8711AC0ACA3007187C3 /* TCSBookInfo.m in Sources */,
+				08F9F8721AC0ACA3007187C3 /* TCSBooksListItem+TCSBooksListCell.m in Sources */,
+				08F9F8731AC0ACA3007187C3 /* TCSRequestOperationsConstants.m in Sources */,
+				08F9F8741AC0ACA3007187C3 /* TCSBookDetailDescriptionCell.m in Sources */,
+				08F9F8751AC0ACA3007187C3 /* main.m in Sources */,
+				08F9F8761AC0ACA3007187C3 /* TCSBookDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0853B2541AAF8C5100C8A21C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0853B2551AAF8C5100C8A21C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0853B2591AAF8C5100C8A21C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0853B25A1AAF8C5100C8A21C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0831A5891AC7718100637777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6C00DA79A3EE6D0CE1A263 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"GOOGLE=1",
+				);
+				INFOPLIST_FILE = "BookReaderGoogle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BookReader/GoogleAnalyticsServicesiOS_3.10",
+				);
+				PRODUCT_NAME = BookReaderGoogle;
+			};
+			name = Debug;
+		};
+		0831A58A1AC7718100637777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757CA8D3CF3C62D14BD18FD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"GOOGLE=1",
+				);
+				INFOPLIST_FILE = "BookReaderGoogle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BookReader/GoogleAnalyticsServicesiOS_3.10",
+				);
+				PRODUCT_NAME = BookReaderGoogle;
+			};
+			name = Release;
+		};
+		0831A5B01AC7724000637777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6C00DA79A3EE6D0CE1A263 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"YANDEX=1",
+				);
+				INFOPLIST_FILE = "BookReaderYandex-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = BookReaderYandex;
+			};
+			name = Debug;
+		};
+		0831A5B11AC7724000637777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757CA8D3CF3C62D14BD18FD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"YANDEX=1",
+				);
+				INFOPLIST_FILE = "BookReaderYandex-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = BookReaderYandex;
+			};
+			name = Release;
+		};
+		0853B2681AAF8C5100C8A21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0853B2691AAF8C5100C8A21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0853B26B1AAF8C5100C8A21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6C00DA79A3EE6D0CE1A263 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BookReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0853B26C1AAF8C5100C8A21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757CA8D3CF3C62D14BD18FD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BookReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08B5EC7F1ACB514C000DBD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6C00DA79A3EE6D0CE1A263 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"YANDEX=1",
+					"GOOGLE=1",
+					"FLURRY=1",
+				);
+				INFOPLIST_FILE = "BookReaderAll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BookReader/Flurry",
+					"$(PROJECT_DIR)/BookReader/GoogleAnalyticsServicesiOS_3.10",
+				);
+				PRODUCT_NAME = BookReaderAll;
+			};
+			name = Debug;
+		};
+		08B5EC801ACB514C000DBD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757CA8D3CF3C62D14BD18FD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"YANDEX=1",
+					"FLURRY=1",
+					"GOOGLE=1",
+				);
+				INFOPLIST_FILE = "BookReaderAll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BookReader/Flurry",
+					"$(PROJECT_DIR)/BookReader/GoogleAnalyticsServicesiOS_3.10",
+				);
+				PRODUCT_NAME = BookReaderAll;
+			};
+			name = Release;
+		};
+		08F9F87F1AC0ACA3007187C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6C00DA79A3EE6D0CE1A263 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLURRY=1",
+				);
+				INFOPLIST_FILE = "BookReader Flurry-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BookReader/Flurry",
+				);
+				PRODUCT_NAME = "BookReader Flurry";
+			};
+			name = Debug;
+		};
+		08F9F8811AC0ACA3007187C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757CA8D3CF3C62D14BD18FD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLURRY=1",
+				);
+				INFOPLIST_FILE = "BookReader Flurry-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BookReader/Flurry",
+				);
+				PRODUCT_NAME = "BookReader Flurry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0831A5881AC7718100637777 /* Build configuration list for PBXNativeTarget "BookReaderGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0831A5891AC7718100637777 /* Debug */,
+				0831A58A1AC7718100637777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0831A5AF1AC7724000637777 /* Build configuration list for PBXNativeTarget "BookReaderYandex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0831A5B01AC7724000637777 /* Debug */,
+				0831A5B11AC7724000637777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0853B2421AAF8C5100C8A21C /* Build configuration list for PBXProject "BookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0853B2681AAF8C5100C8A21C /* Debug */,
+				0853B2691AAF8C5100C8A21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0853B26A1AAF8C5100C8A21C /* Build configuration list for PBXNativeTarget "BookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0853B26B1AAF8C5100C8A21C /* Debug */,
+				0853B26C1AAF8C5100C8A21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B5EC7E1ACB514C000DBD10 /* Build configuration list for PBXNativeTarget "BookReaderAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B5EC7F1ACB514C000DBD10 /* Debug */,
+				08B5EC801ACB514C000DBD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F9F87E1AC0ACA3007187C3 /* Build configuration list for PBXNativeTarget "BookReaderFlurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F9F87F1AC0ACA3007187C3 /* Debug */,
+				08F9F8811AC0ACA3007187C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0853B23F1AAF8C5100C8A21C /* Project object */;
+}
